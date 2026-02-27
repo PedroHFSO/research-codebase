@@ -1,0 +1,1 @@
+In-progress research regarding use of BERT models embeddings + DA techniques for smart contract vulnerability detection.
