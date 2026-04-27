@@ -14,6 +14,16 @@ Test whether LLM-generated synthetic Solidity contracts, when added to the train
 
 ---
 
+## Implementation Status
+
+Early sequence (vertical slice):
+1. ~~Define parameter schema~~ — complete; see [Parameter Schema](parameter-schema.md)
+2. ~~Build interactive CLI shell~~ — complete; Textual form at `src/data-augmentation/`
+3. Wire in DeepInfra generation call — next
+4. Add solc compilation gate
+
+---
+
 ## High-Level Roadmap
 
 ### Phase 1 — Seed Curation
@@ -36,3 +46,4 @@ Merge labeled synthetic contracts with the original training data. Re-train and 
 ## Documents
 
 - [Parameter Schema](parameter-schema.md) — v1 CLI parameter schema: seed sampling and generation knobs, with rationale for inclusions and exclusions
+- [CLI Implementation](cli-implementation.md) — Textual form design, file structure, and environment setup
