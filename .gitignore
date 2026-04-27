@@ -2,3 +2,5 @@
 /.claude/
 *.pyc
 /research-planning
+
+ethereum/.claude/
