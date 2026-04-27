@@ -35,4 +35,4 @@ Merge labeled synthetic contracts with the original training data. Re-train and 
 
 ## Documents
 
-_Topic documents will be added here as cycles progress._
+- [Parameter Schema](parameter-schema.md) — v1 CLI parameter schema: seed sampling and generation knobs, with rationale for inclusions and exclusions
