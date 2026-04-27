@@ -2,8 +2,11 @@ import logging
 import os
 import time
 
+from dotenv import load_dotenv
 from form import PipelineForm
 import pipeline
+
+load_dotenv()
 
 logging.basicConfig(
     level=logging.INFO,
