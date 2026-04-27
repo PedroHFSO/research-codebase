@@ -6,3 +6,5 @@
 ethereum/.claude/
 **/.venv/
 **/__pycache__/
+
+ethereum/src/data-augmentation/.env
